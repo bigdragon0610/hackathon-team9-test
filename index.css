@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    line-height: 1.2;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+img {
+    height: 40px;
+    width: 93px;
+}
+
+.header-logo {
+display: block;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','æ¸¸æ˜Žæœä½“',sans-serif;
+}
+
+p {
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+}
+
+.header-nav li {
+    display: list-item;
+    text-align: center;
+    line-height: 1.2;
+    
+}
+
+.header-nav ul li {
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+
+
+.header-wrap {
+    background-image: url(https://danblog.tokyo/img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header-center-text {
+    position: absolute;
+    font-size: 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','æ¸¸æ˜Žæœä½“',sans-serif;
+}
