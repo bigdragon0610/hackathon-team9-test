@@ -44,10 +44,6 @@
     filter: brightness(50%);
 }
 
-.fotter-list {
-    display: flex;
-}
-
 .fotter-list-ul {
     display: flex;
 }
@@ -72,4 +68,33 @@
     font-size: 12px;
     text-align: center;
     padding-bottom: 10px;
+    margin: 0px;
 }
+
+
+/* お知らせ
+.box {
+    border: 1px solid #000;
+    margin: 0px 30px;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+
+.news {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.news-ul {
+    list-style: none;
+    display: grid;
+    place-items: center;
+}
+
+.news-li {
+    border-bottom: 1px solid #000;
+    padding: 30px 0px;
+    width: 700px;
+} */
