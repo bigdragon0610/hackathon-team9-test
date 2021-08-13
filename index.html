@@ -8,13 +8,50 @@
     <link rel="reset.css" href="reset.css"> 
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <h1>お知らせ</h1>
+
+<body class="body">
+    <div class="header-wrap">
+        <div class="header-container">
+            <header class="header">
+                <!-- ヘッダー左上のロゴ -->
+                <h1 id="header-logo">
+                    <a href="">
+                    <img src="https://danblog.tokyo/img/header_logo.png" alt="蒼乃建設" class="header-logo">
+                </a>
+                </h1>
+                <!-- ヘッダー上の四項目 -->
+                <nav class="header-nav">
+                    <ul class="header-classlists" id="header-lists">
+                        <li>
+                            <a href="" class="header-list" id="header-list-1">企業理念</a>
+                        </li>
+                        <li>
+                            <a href="" class="header-list" id="header-list-2">施工事例</a>
+                        </li>
+                        <li>
+                            <a href="" class="header-list" id="header-list-3">採用情報</a>
+                        </li>
+                        <li>
+                            <a href="" class="header-list" id="header-list-4">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-icon">
+                    <img src="https://danblog.tokyo/img/hamburger.svg" alt="メニューバー">
+                </div>
+            </header>
+            <!-- ヘッダーの中心の文字 -->
+            <p class="header-center-text">街を作る。未来を作る。</p>
+        </div>
+    </div>
+
+   
+    <h1 class="title-style">お知らせ</h1>
     
        
     <ul class ="list">
         <li class="list-decoration">
-            <a href="https://danblog.tokyo/">
+            <a href="https://danblog.tokyo/" class="notification-style">
                 <span>2020.11.17
                      <span class="box">お知らせ</span>
                 </span>
@@ -22,7 +59,7 @@
             </a>
         </li>
         <li class="list-decoration">
-            <a href="https://danblog.tokyo/">
+            <a href="https://danblog.tokyo/" class="notification-style">
                  <span>2020.11.10
                      <span class="box">お知らせ</span>
                  </span>
@@ -31,7 +68,7 @@
         </li>
     
         <li class="list-decoration">
-            <a href="https://danblog.tokyo/">
+            <a href="https://danblog.tokyo/" class="notification-style">
             <span>2020.11.01
                  <span class="box"> お知らせ</span>
             </span>
@@ -39,5 +76,50 @@
             </a>
         </li>
     </ul>
+
+    <!-- 画像３個 -->
+    <div class="links">
+        <a href="https://danblog.tokyo/#">
+            <img class="image" src="https://danblog.tokyo/img/company.png" alt="企業理念">
+        </a>
+        <a href="https://danblog.tokyo/#">
+            <img class="image" src="https://danblog.tokyo/img/recruit.png" alt="採用情報">
+        </a>
+        <a href="https://danblog.tokyo/#">
+            <img class="image" src="https://danblog.tokyo/img/contact.png" alt="お問い合わせ">
+        </a>
+    </div>
+
+    <!-- フッター -->
+    <footer class="fotter">
+        <div class="fotter-contents">
+            <div class="fotter-elemnts">
+                <div>
+                    <a href="https://danblog.tokyo/#">
+                        <img class="fotter-logo" src="https://danblog.tokyo/img/footer_logo.png" alt="fotter-logo">
+                    </a>
+                </div>
+                <div>
+                    <ul class="fotter-list-ul">
+                        <li class="fotter-list-li">
+                            <a class="fotter-list-a" href="https://danblog.tokyo/#">企業理念</a>
+                        </li>
+                        <li class="fotter-list-li">
+                            <a class="fotter-list-a" href="https://danblog.tokyo/#">施工事例</a>
+                        </li>
+                        <li class="fotter-list-li">
+                            <a class="fotter-list-a" href="https://danblog.tokyo/#">採用情報</a>
+                        </li>
+                        <li class="fotter-list-li">
+                            <a class="fotter-list-a" href="https://danblog.tokyo/#">お問い合わせ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="fotter-copyright">Copyright © 2020 Aono Corporation.</p>
+        </div>
+    </footer>
+    
+<script src="index.js"></script> 
 </body>
 </html>
