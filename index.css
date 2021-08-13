@@ -1,9 +1,11 @@
 .title {
     text-align: center;
+    padding: 50px 20px;
 }
 
 .example-container {
     margin-top: 30px;
+    display: flex;
 }
 
 .example-detail {
