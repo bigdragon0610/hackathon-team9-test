@@ -1,3 +1,100 @@
+.links {
+    padding-top: 90px;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image:hover {
+    opacity: 0.6;
+    filter: brightness(110%);
+}
+
+.fotter {
+    background-color: black;
+}
+
+.fotter-contents {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fotter-elemnts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.fotter-logo {
+    display: block;
+    height: 40px;
+    width: 94.87px;
+}
+
+.fotter-logo:hover {
+    filter: brightness(50%);
+}
+
+.fotter-list-ul {
+    display: flex;
+}
+
+.fotter-list-li {
+    margin: 0 30px;
+}
+
+.fotter-list-a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.fotter-list-a:hover {
+    filter: brightness(50%);
+}
+
+.fotter-copyright {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+
+/* お知らせ
+.box {
+    border: 1px solid #000;
+    margin: 0px 30px;
+    padding: 5px 8px;
+    font-size: 11px;
+}
+
+.news {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.news-ul {
+    list-style: none;
+    display: grid;
+    place-items: center;
+}
+
+.news-li {
+    border-bottom: 1px solid #000;
+    padding: 30px 0px;
+    width: 700px;
+} */
+
 body {
     margin: 0;
     padding: 0;
