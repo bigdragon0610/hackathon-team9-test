@@ -13,6 +13,13 @@
   padding: 5px 8px;
   font-size:11px ;
 }
+
+@media screen and (max-width: 960px) {
+    .list {
+        padding: 20px;
+    }
+}
+
 .notification-style{
   text-decoration: none;
   color: black;
@@ -24,6 +31,7 @@ list-style: none;
 display: grid;
 place-items: center;
 }
+
 .list-decoration{
   border-bottom:1px solid black;
   padding: 30px 0px;
@@ -38,6 +46,21 @@ place-items: center;
 .image {
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .image {
+        width: 100%;
+        height: 100%; 
+        vertical-align: bottom;
+    }
 }
 
 .image:hover {
@@ -62,6 +85,14 @@ place-items: center;
     margin-bottom: 60px;
 }
 
+@media screen and (max-width: 960px) {
+    .fotter-elemnts {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+}
+
 .fotter-logo {
     display: block;
     height: 40px;
@@ -76,8 +107,23 @@ place-items: center;
     display: flex;
 }
 
+@media screen and (max-width: 960px) {
+    .fotter-list-ul{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}
+
 .fotter-list-li {
     margin: 0 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .fotter-list-li {
+        padding: 10px;
+        text-align: center;
+    }
 }
 
 .fotter-list-a {
@@ -242,8 +288,24 @@ p {
     display: flex;
 }
 
+@media screen and (max-width: 960px) {
+    .example-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .example-detail {
     margin-bottom: 50px;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+    .example-detail {
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
 }
 
 .example-size-large {
