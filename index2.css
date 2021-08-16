@@ -232,9 +232,35 @@ p {
     }
 }
 
+/* 施工事例部分のスタイル */
 .title {
     text-align: center;
-    padding: 50px 20px;
+    padding: 90px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    line-height: 1.2;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .title {
+        padding: 50px 20px;
+    }
+}
+
+.construct-example  {
+    display: block;
+    margin-bottom: 90px;
+    font-size: 38px;
+}
+
+/* 画面幅960px以上で"施工事例"の文字サイズ変更 */
+@media screen and (max-width: 960px) {
+    .construct-example {
+        display: block;
+        margin-bottom: 0;
+        font-size: 24px;
+    }
 }
 
 .example-container {
@@ -242,8 +268,23 @@ p {
     display: flex;
 }
 
+@media screen and (max-width: 960px) {
+    .example-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .example-detail {
     margin-bottom: 50px;
+    width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+    .example-detail {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 
 .example-size-large {
@@ -258,12 +299,30 @@ p {
     margin-top: 15px;
 }
 
+.image-box {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+    .image-box {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
 .example-img {
     width: 100%;
 }
 
 .link-img {
     width: 300px;
+}
+
+@media screen and (max-width: 960px) {
+    .link-img {
+        margin-top: 15px;
+    }
 }
 
 .work-list {
