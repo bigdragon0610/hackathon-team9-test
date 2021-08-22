@@ -1,0 +1,348 @@
+.title-style{
+    font-size: 38px;
+    font-weight:normal;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+    height:60px;
+    margin: 100px 0px 60px;
+    display: grid;
+    place-items: center;
+  }
+.box{
+  border:solid 1px;
+  margin:0px 30px ;
+  padding: 5px 8px;
+  font-size:11px ;
+}
+
+@media screen and (max-width: 960px) {
+    .list {
+        padding: 20px;
+    }
+}
+
+.notification-style{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+.list{
+list-style: none;
+display: grid;
+place-items: center;
+}
+
+.list-decoration{
+  border-bottom:1px solid black;
+  padding: 30px 0px;
+  width: 700px;
+}
+
+.links {
+    padding-top: 90px;
+    display: flex;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 960px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .image {
+        width: 100%;
+        height: 100%; 
+        vertical-align: bottom;
+    }
+}
+
+.image:hover {
+    opacity: 0.6;
+    filter: brightness(110%);
+}
+
+.fotter {
+    background-color: black;
+}
+
+.fotter-contents {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fotter-elemnts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 960px) {
+    .fotter-elemnts {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+}
+
+.fotter-logo {
+    display: block;
+    height: 40px;
+    width: 94.87px;
+}
+
+.fotter-logo:hover {
+    filter: brightness(50%);
+}
+
+.fotter-list-ul {
+    display: flex;
+}
+
+@media screen and (max-width: 960px) {
+    .fotter-list-ul{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+}
+
+.fotter-list-li {
+    margin: 0 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .fotter-list-li {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.fotter-list-a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.fotter-list-a:hover {
+    filter: brightness(50%);
+}
+
+.fotter-copyright {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    line-height: 1.2;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.header-logo {
+    display: block;
+    height: 60px;
+    width: 139px;
+    width: 100%;
+}
+
+/* 960px以下でヘッダーロゴを縮小 */
+@media screen and (max-width: 960px) {
+    .header-logo {
+        height: 40px;
+        width: 100%;
+    }
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN', 'Hiragino Mincho ProN', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', 'æ¸¸æ˜Žæœä½“', sans-serif;
+    font-size: 18px;
+}
+
+/* 960px以下でヘッダー上の四項目を非表示 */
+@media screen and (max-width: 960px) {
+    .header-nav {
+        display: none;
+    }
+}
+
+p {
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 1100;
+    height: 90px;
+}
+
+/* 960px以下でヘッダーの余白を変更 */
+@media screen and (max-width: 960px) {
+    .header {
+        padding: 15px 20px;
+        height: 70px;
+    }
+}
+
+.header-nav ul li {
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+/* 960px以上の場合メニューバーは非表示 */
+
+.header-icon {
+    display: none;
+}
+
+/* 960px以下になったらメニューバーを表示 */
+
+@media screen and (max-width: 960px) {
+    .header-icon {
+        display: block;
+        font-size: 28px;
+    }
+}
+
+.header-wrap {
+    background-image: url(https://danblog.tokyo/img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 80vh;
+}
+
+/* 960px以下で背景画像の高さを小さくする */
+@media screen and (max-width: 960px) {
+    .header-wrap {
+        height: 50vh;
+    }
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header-center-text {
+    position: absolute;
+    font-size: 48px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 57;
+    margin: 0;
+    text-align: center;
+    font-family: 'ãƒ’ãƒ©ã‚®ãƒŽæ˜Žæœ ProN', 'Hiragino Mincho ProN', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', 'æ¸¸æ˜Žæœä½“', sans-serif;
+}
+
+/* 960px以下でヘッダー中央テキストを縮小 */
+@media screen and (max-width: 960px) {
+    .header-center-text {
+        font-size: 24px;
+    }
+}
+
+.title {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.example-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+@media screen and (max-width: 960px) {
+    .example-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.example-detail {
+    margin-bottom: 50px;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+    .example-detail {
+        margin-bottom: 50px;
+        max-width: 100%;
+    }
+}
+
+.example-size-xlarge{
+    display: block;
+    margin: 100px ;
+    font-size: 38px;
+    font-weight:normal;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.example-size-large {
+    font-size: 24px;
+    font-weight:normal;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.example-size-small {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.example-img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.link-img {
+    width: 300px;
+}
+
+.work-list {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 20px;
+    color: black;
+}
